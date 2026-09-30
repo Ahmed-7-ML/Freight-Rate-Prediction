@@ -25,8 +25,8 @@ The full write-up (data issues, split approach, December chart) is in `Freight_R
 ├── notebooks/
 │   └── solution.ipynb          # full pipeline: EDA -> cleaning -> split -> models -> predictions
 │   └── baseline.ipynb 			# Baseline Solution
-│   └── model.pkl 				# Baseline Model
-│   └── artifacts.pkl 			# Improved Model with Encoder
+│   └── model.joblib 				# Baseline Model
+│   └── artifacts.joblib 			# Improved Model with Encoder
 ├── score.py                    # provided scorer
 ├── requirements.txt
 ├── validation_predictions.csv  # submission file (load_id, predicted_rate)
