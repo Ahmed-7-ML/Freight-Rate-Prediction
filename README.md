@@ -13,7 +13,7 @@ See `Freight_Rate_ML_Assessment.pdf` for the assessment instructions.
 
 ```bash
 python -m pip install -r requirements.txt
-python score.py --predictions validation_predictions.csv --december-predictions data/december_chart_inputs.csv
+python score.py --predictions validation_predictions.csv --december-predictions december_predictions.csv
 ```
 
 The scorer validates both files and creates `scorer_results/candidate_december.png`.
